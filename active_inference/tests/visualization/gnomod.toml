@@ -1,0 +1,6 @@
+module = "gno.land/p/active_inference/tests/visualization"
+
+require (
+	"gno.land/p/active_inference/methods" v1.0.0
+	"gno.land/p/active_inference/methods/visualization" v1.0.0
+)

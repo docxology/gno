@@ -1,0 +1,7 @@
+module = "gno.land/p/active_inference/methods/advanced_bayesian"
+
+require (
+	"gno.land/p/active_inference/methods" v1.0.0
+	"gno.land/p/active_inference/methods/bayesian_inference" v1.0.0
+	"gno.land/p/nt/avl" v1.0.0
+)

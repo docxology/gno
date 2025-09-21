@@ -1,0 +1,7 @@
+module = "gno.land/p/active_inference/tests/financial_trading"
+
+require (
+	"gno.land/p/active_inference/methods" v1.0.0
+	"gno.land/p/active_inference/methods/active_inference_core" v1.0.0
+	"gno.land/p/active_inference/realms/financial_trading" v1.0.0
+)

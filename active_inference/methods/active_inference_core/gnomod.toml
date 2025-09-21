@@ -1,0 +1,2 @@
+module = "gno.land/p/active_inference/methods/active_inference_core"
+gno = "0.9"

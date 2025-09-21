@@ -1,0 +1,49 @@
+# Gno Active Inference Development Rules
+
+## Core Constraints
+- **Active Inference Focus**: All development must relate to Active Inference, Bayesian learning, Free Energy Principle, or cognitive modeling on Gno blockchain
+- **100% Test Coverage**: Every method must have comprehensive tests covering all edge cases and scenarios
+- **Thin Orchestrators**: Examples must be minimal orchestrators that demonstrate method integration, not full applications
+- **Maximal Reuse**: Leverage existing @examples/ and @docs/ content wherever possible
+- **Modular Design**: Follow Gno philosophy of simplicity, modularity, and minimal dependencies
+
+## Directory Structure Enforcement
+enforce_directory_structure:
+  - active_inference/methods/  # Core method implementations
+  - active_inference/examples/ # Thin orchestrator examples
+  - active_inference/docs/     # Documentation and guides
+
+## Development Requirements
+require_test_coverage: 100
+enforce_thin_orchestrators: true
+leverage_existing_resources: true
+follow_gno_philosophy: true
+
+## Quality Standards
+- All methods must be production-ready and thoroughly tested
+- Code must be readable, maintainable, and well-documented
+- Follow Gno best practices from @docs/resources/effective-gno.md
+- Use existing Gno stdlibs and examples as foundation
+- Implement proper error handling and validation
+- Document all assumptions and limitations
+
+## Integration Rules
+- Methods should be composable and reusable
+- Use Gno's type system effectively
+- Leverage realm-based state management appropriately
+- Implement proper cross-realm communication patterns
+- Follow interrealm specification from @docs/resources/gno-interrealm.md
+
+## Testing Requirements
+- Unit tests for all methods
+- Integration tests for orchestrator examples
+- Edge case coverage
+- Performance testing where relevant
+- Documentation tests (doctests) where applicable
+
+## Documentation Standards
+- Clear, concise documentation following Go doc standards
+- Include usage examples for all public methods
+- Document mathematical foundations and assumptions
+- Reference relevant research papers and concepts
+- Provide migration guides for API changes
